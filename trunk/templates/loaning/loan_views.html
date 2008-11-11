@@ -1,0 +1,63 @@
+<html>
+
+<head>
+<title>Earls High School Loaning and Inventory System</title>
+<script src="/site_media/sorttable.js"></script>
+</head>
+
+<body>
+
+<h1><b><center>Earls High School</center></b></h1>
+
+<p><h2><b><center>Inventory and Loaning System</center><b><h2></center></p>
+
+<p><h3><b>View {{type}} details</b></h3></p>
+
+Status: {{status}}
+<p>
+BorrowerID: {{borrowerID}}
+
+{% ifequal status "1" %}
+	<form action="/loaning/loanItem/step1/" method="post">
+{% endifequal %}
+{% ifequal status "2" %}
+	<form action="/loaning/loanItem/step2/" method="post">
+{% endifequal %}
+
+<input type="hidden" name="borrowerID" value="{{borrowerID}}">{{borrowerID}}
+
+<input type="hidden" name="status" value="{{status}}">
+
+<table align="center" border="1" width="90%" class="sortable">
+<tr align="center">
+{% for val in title %}
+<th><b>{{val}}</b></th>
+{% endfor%}
+</tr>
+{% for val in values %}
+	<tr align="left">
+	{% for v in val %}
+		{% ifequal forloop.counter 1 %}
+			<td><input type="radio" name="borrower" value="{{v}}">{{v}}</td>
+		{% endifequal %}
+
+		{% ifnotequal forloop.counter 1 %}
+			<td>
+			{{v}}
+			</td>
+		{% endifnotequal %}
+
+	{% endfor %}
+	</tr>
+{% endfor %}
+
+</table>
+
+<p><center>
+<input type="submit" value="Select">
+</center></p>
+
+
+</form>
+</body>
+</html>

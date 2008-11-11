@@ -1,0 +1,97 @@
+\hypertarget{classEarls__Admin_1_1loaning_1_1models_1_1Loaning}{
+\section{Earls\_\-Admin::loaning::models::Loaning Class Reference}
+\label{classEarls__Admin_1_1loaning_1_1models_1_1Loaning}\index{Earls\_\-Admin::loaning::models::Loaning@{Earls\_\-Admin::loaning::models::Loaning}}
+}
+\subsection*{Static Public Attributes}
+\begin{CompactItemize}
+\item 
+tuple \hyperlink{classEarls__Admin_1_1loaning_1_1models_1_1Loaning_4fd2a1f45e68469f39f3e387cb53d8d3}{borrower} = models.ForeignKey(\hyperlink{classEarls__Admin_1_1loaning_1_1models_1_1Borrower}{Borrower},related\_\-name=\char`\"{}Borrower\char`\"{})
+\item 
+tuple \hyperlink{classEarls__Admin_1_1loaning_1_1models_1_1Loaning_ee09502420d30136aa50f6419000b8ba}{item} = models.ForeignKey(\hyperlink{classEarls__Admin_1_1loaning_1_1models_1_1Inventory}{Inventory},related\_\-name=\char`\"{}Loaning\_\-item\char`\"{})
+\item 
+tuple \hyperlink{classEarls__Admin_1_1loaning_1_1models_1_1Loaning_f0f7ea4797359ee90acc09c7063e6ff0}{datereq} = models.DateTimeField('date required')
+\item 
+tuple \hyperlink{classEarls__Admin_1_1loaning_1_1models_1_1Loaning_cbb5db0c7955589338762081381e174c}{dateloan} = models.DateTimeField('date loaned')
+\item 
+tuple \hyperlink{classEarls__Admin_1_1loaning_1_1models_1_1Loaning_0553958dceb007b5cfe6618a69491081}{dateret} = models.DateTimeField('date returned')
+\item 
+tuple \hyperlink{classEarls__Admin_1_1loaning_1_1models_1_1Loaning_94a6a7787d70181e0d74b237d0c7bd8b}{dateretby} = models.DateTimeField('date to return by')
+\item 
+tuple \hyperlink{classEarls__Admin_1_1loaning_1_1models_1_1Loaning_0f03fc941e45181b1c0ce8a51370e924}{retby} = models.ForeignKey(\hyperlink{classEarls__Admin_1_1loaning_1_1models_1_1Borrower}{Borrower},related\_\-name=\char`\"{}Returned\_\-by\char`\"{})
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 28 of file models.py.
+
+\subsection{Member Data Documentation}
+\hypertarget{classEarls__Admin_1_1loaning_1_1models_1_1Loaning_4fd2a1f45e68469f39f3e387cb53d8d3}{
+\index{Earls\_\-Admin::loaning::models::Loaning@{Earls\_\-Admin::loaning::models::Loaning}!borrower@{borrower}}
+\index{borrower@{borrower}!Earls_Admin::loaning::models::Loaning@{Earls\_\-Admin::loaning::models::Loaning}}
+\subsubsection[borrower]{\setlength{\rightskip}{0pt plus 5cm}tuple {\bf Earls\_\-Admin::loaning::models::Loaning::borrower} = models.ForeignKey({\bf Borrower},related\_\-name=\char`\"{}Borrower\char`\"{})\hspace{0.3cm}{\tt  \mbox{[}static\mbox{]}}}}
+\label{classEarls__Admin_1_1loaning_1_1models_1_1Loaning_4fd2a1f45e68469f39f3e387cb53d8d3}
+
+
+
+
+Definition at line 29 of file models.py.\hypertarget{classEarls__Admin_1_1loaning_1_1models_1_1Loaning_ee09502420d30136aa50f6419000b8ba}{
+\index{Earls\_\-Admin::loaning::models::Loaning@{Earls\_\-Admin::loaning::models::Loaning}!item@{item}}
+\index{item@{item}!Earls_Admin::loaning::models::Loaning@{Earls\_\-Admin::loaning::models::Loaning}}
+\subsubsection[item]{\setlength{\rightskip}{0pt plus 5cm}tuple {\bf Earls\_\-Admin::loaning::models::Loaning::item} = models.ForeignKey({\bf Inventory},related\_\-name=\char`\"{}Loaning\_\-item\char`\"{})\hspace{0.3cm}{\tt  \mbox{[}static\mbox{]}}}}
+\label{classEarls__Admin_1_1loaning_1_1models_1_1Loaning_ee09502420d30136aa50f6419000b8ba}
+
+
+
+
+Definition at line 30 of file models.py.\hypertarget{classEarls__Admin_1_1loaning_1_1models_1_1Loaning_f0f7ea4797359ee90acc09c7063e6ff0}{
+\index{Earls\_\-Admin::loaning::models::Loaning@{Earls\_\-Admin::loaning::models::Loaning}!datereq@{datereq}}
+\index{datereq@{datereq}!Earls_Admin::loaning::models::Loaning@{Earls\_\-Admin::loaning::models::Loaning}}
+\subsubsection[datereq]{\setlength{\rightskip}{0pt plus 5cm}tuple {\bf Earls\_\-Admin::loaning::models::Loaning::datereq} = models.DateTimeField('date required')\hspace{0.3cm}{\tt  \mbox{[}static\mbox{]}}}}
+\label{classEarls__Admin_1_1loaning_1_1models_1_1Loaning_f0f7ea4797359ee90acc09c7063e6ff0}
+
+
+
+
+Definition at line 31 of file models.py.\hypertarget{classEarls__Admin_1_1loaning_1_1models_1_1Loaning_cbb5db0c7955589338762081381e174c}{
+\index{Earls\_\-Admin::loaning::models::Loaning@{Earls\_\-Admin::loaning::models::Loaning}!dateloan@{dateloan}}
+\index{dateloan@{dateloan}!Earls_Admin::loaning::models::Loaning@{Earls\_\-Admin::loaning::models::Loaning}}
+\subsubsection[dateloan]{\setlength{\rightskip}{0pt plus 5cm}tuple {\bf Earls\_\-Admin::loaning::models::Loaning::dateloan} = models.DateTimeField('date loaned')\hspace{0.3cm}{\tt  \mbox{[}static\mbox{]}}}}
+\label{classEarls__Admin_1_1loaning_1_1models_1_1Loaning_cbb5db0c7955589338762081381e174c}
+
+
+
+
+Definition at line 32 of file models.py.\hypertarget{classEarls__Admin_1_1loaning_1_1models_1_1Loaning_0553958dceb007b5cfe6618a69491081}{
+\index{Earls\_\-Admin::loaning::models::Loaning@{Earls\_\-Admin::loaning::models::Loaning}!dateret@{dateret}}
+\index{dateret@{dateret}!Earls_Admin::loaning::models::Loaning@{Earls\_\-Admin::loaning::models::Loaning}}
+\subsubsection[dateret]{\setlength{\rightskip}{0pt plus 5cm}tuple {\bf Earls\_\-Admin::loaning::models::Loaning::dateret} = models.DateTimeField('date returned')\hspace{0.3cm}{\tt  \mbox{[}static\mbox{]}}}}
+\label{classEarls__Admin_1_1loaning_1_1models_1_1Loaning_0553958dceb007b5cfe6618a69491081}
+
+
+
+
+Definition at line 33 of file models.py.\hypertarget{classEarls__Admin_1_1loaning_1_1models_1_1Loaning_94a6a7787d70181e0d74b237d0c7bd8b}{
+\index{Earls\_\-Admin::loaning::models::Loaning@{Earls\_\-Admin::loaning::models::Loaning}!dateretby@{dateretby}}
+\index{dateretby@{dateretby}!Earls_Admin::loaning::models::Loaning@{Earls\_\-Admin::loaning::models::Loaning}}
+\subsubsection[dateretby]{\setlength{\rightskip}{0pt plus 5cm}tuple {\bf Earls\_\-Admin::loaning::models::Loaning::dateretby} = models.DateTimeField('date to return by')\hspace{0.3cm}{\tt  \mbox{[}static\mbox{]}}}}
+\label{classEarls__Admin_1_1loaning_1_1models_1_1Loaning_94a6a7787d70181e0d74b237d0c7bd8b}
+
+
+
+
+Definition at line 34 of file models.py.\hypertarget{classEarls__Admin_1_1loaning_1_1models_1_1Loaning_0f03fc941e45181b1c0ce8a51370e924}{
+\index{Earls\_\-Admin::loaning::models::Loaning@{Earls\_\-Admin::loaning::models::Loaning}!retby@{retby}}
+\index{retby@{retby}!Earls_Admin::loaning::models::Loaning@{Earls\_\-Admin::loaning::models::Loaning}}
+\subsubsection[retby]{\setlength{\rightskip}{0pt plus 5cm}tuple {\bf Earls\_\-Admin::loaning::models::Loaning::retby} = models.ForeignKey({\bf Borrower},related\_\-name=\char`\"{}Returned\_\-by\char`\"{})\hspace{0.3cm}{\tt  \mbox{[}static\mbox{]}}}}
+\label{classEarls__Admin_1_1loaning_1_1models_1_1Loaning_0f03fc941e45181b1c0ce8a51370e924}
+
+
+
+
+Definition at line 35 of file models.py.
+
+The documentation for this class was generated from the following file:\begin{CompactItemize}
+\item 
+loaning/\hyperlink{loaning_2models_8py}{models.py}\end{CompactItemize}

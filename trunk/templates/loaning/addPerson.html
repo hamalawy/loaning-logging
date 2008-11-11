@@ -1,0 +1,56 @@
+<html>
+
+<head>
+<title>Earls High School Loaning and Inventory System</title>
+</head>
+
+<body>
+
+<h1><b><center>Earls High School</center></b></h1>
+
+<p><h2><b><center>Inventory and Loaning System</center><b><h2></center></p>
+
+<p><h3><b>Add person to the database</b></h3></p>
+
+<h4>
+<form action="/loaning/addPerson/addDB/" method="post">
+<p>
+<label for="schoolid">School ID: </label>
+<input type="text" name="schoolid" value="">
+</p>
+<p>
+<label for="forename">Forename: </label>
+<input type="text" name="forename" value="">
+</p>
+<p>
+<label for="surname">Surname: </label>
+<input type="text" name="surname" value="">
+</p>
+
+<p>
+<label for="status">Status: </label>
+<select name="status">
+
+{% for value in status %}
+<option value="{{value}}">{{value}}</option>
+{% endfor %}
+
+</select>
+</p>
+
+<p>
+<label for="notes">Notes: </label>
+<input type="text" name="notes" value="">
+</p>
+
+<p>
+<input type="submit" value="Submit">
+</p>
+
+</form>
+
+</h4>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<html>
+
+<head>
+<title>Earls High School Printer Logging - Room: {{room}}</title>
+</head>
+
+<body>
+
+<center><h1><b>Earls High School</b></h1></center>
+
+<p><center><h2><b>Printer Logging</b></h2></center></p>
+
+<p><h3><b>Printer in room: {{room}}</b></h3></p>
+
+<p><h3><b>Printer: {{printer}}</b></h3></p>
+
+<table width=75% align=center border=1 bordercolor = black>
+
+<tr align=center><td>Date</td><td>Location</td><td>Make</td><td>Model</td><td>Total Prints</td><td>Delta(Total Prints)</td></tr>
+
+{% for job in printer_vals %}
+    <tr><td>{{job.date}}</td><td>{{job.location}}</td><td>{{job.make}}</td><td>{{job.model}}</td><td>{{job.totalcount}}</td><td>{{job.difftotal}}</td></tr>
+
+{% endfor %}
+
+</table>
+
+
+<p></p>
+
+</body>
+</html>

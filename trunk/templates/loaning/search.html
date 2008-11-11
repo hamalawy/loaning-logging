@@ -1,0 +1,116 @@
+<html>
+
+<head>
+<title>Earls High School Loaning and Inventory System</title>
+</head>
+
+<body>
+
+<h1><b><center>Earls High School</center></b></h1>
+
+<p><h2><b><center>Inventory and Loaning System</center><b><h2></center></p>
+
+<p><h3><b>Search Criteria</b></h3></p>
+
+<form action="/loaning/search/execute" method="post">
+
+<p>
+<label for="type">Type of search: </label>
+<select name="type">
+
+<option value="Borrower">Person Details</option>
+<option value="Inventory">Inventory Details</option>
+<option value="Loaning">Loans</option>
+<option value="Logging">Call Logging</option>
+
+</select>
+</p>
+
+<table border=0>
+<tr align="center">
+<td>
+Person Details
+</td>
+<td>
+Inventory Details
+</td>
+<td>
+Loans
+</td>
+<td>
+Call Logging
+</td>
+</tr>
+
+<tr align="center">
+
+<td>
+<select name="person">
+
+<option value="N/A">N/A</option>
+<option value="id">ID</option>
+<option value="forename">Forename</option>
+<option value="surname">Surname</option>
+<option value="status">Status</option>
+
+</select>
+</td>
+
+<td>
+<select name="item">
+
+<option value="N/A">N/A</option>
+<option value="serial">Serial No</option>
+<option value="categ">Category</option>
+<option value="subcat">Sub-Category</option>
+<option value="make">Make</option>
+<option value="model">Model</option>
+<option value="location">Location</option>
+<option value="pcstatus">PC Status</option>
+<option value="loanable">Loanable</option>
+<option value="inservice">In-service</option>
+
+
+</select>
+</td>
+
+<td>
+<select name="loaning">
+
+<option value="N/A">N/A</option>
+<option value="borrower">Borrower</option>
+<option value="datereq">Date Required</option>
+<option value="dateloan">Date Loaned</option>
+<option value="dateret">Date Returned</option>
+<option value="dateretby">Date to Return by</option>
+<option value="returned by">Returned By</option>
+
+
+</select>
+</td>
+
+<td>
+<select name="logging">
+
+<option value="N/A">N/A</option>
+<option value="faultdate">Date fault reported</option>
+<option value="faultrep">Fault reported by</option>
+<option value="faultlog">Fault logged by</option>
+<option value="faultitem">Item</option>
+<option value="faukt">Fault</option>
+
+</select>
+</td>
+
+</tr>
+</table>
+
+<p>
+<input type="submit" value="Submit">
+</p>
+
+</form>
+
+</body>
+
+</html>
