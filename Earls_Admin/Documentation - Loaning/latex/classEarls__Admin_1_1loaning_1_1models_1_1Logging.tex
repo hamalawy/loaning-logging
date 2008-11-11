@@ -1,0 +1,119 @@
+\hypertarget{classEarls__Admin_1_1loaning_1_1models_1_1Logging}{
+\section{Earls\_\-Admin::loaning::models::Logging Class Reference}
+\label{classEarls__Admin_1_1loaning_1_1models_1_1Logging}\index{Earls\_\-Admin::loaning::models::Logging@{Earls\_\-Admin::loaning::models::Logging}}
+}
+\subsection*{Static Public Attributes}
+\begin{CompactItemize}
+\item 
+tuple \hyperlink{classEarls__Admin_1_1loaning_1_1models_1_1Logging_4650b5b238266461bb40ee5470326fee}{faultdate} = models.DateTimeField('date \hyperlink{classEarls__Admin_1_1loaning_1_1models_1_1Logging_eaa026062e1feffc8ded9ba05734c88d}{fault} occured')
+\item 
+tuple \hyperlink{classEarls__Admin_1_1loaning_1_1models_1_1Logging_fe3d4ddd3051413989da3f0293057363}{faultrep} = models.ForeignKey(\hyperlink{classEarls__Admin_1_1loaning_1_1models_1_1Borrower}{Borrower},related\_\-name=\char`\"{}Fault\_\-reported\_\-by\char`\"{})
+\item 
+tuple \hyperlink{classEarls__Admin_1_1loaning_1_1models_1_1Logging_a46ce33fe9c2910c39ddf8678dc3de47}{faultlog} = models.ForeignKey(\hyperlink{classEarls__Admin_1_1loaning_1_1models_1_1Borrower}{Borrower},related\_\-name=\char`\"{}Fault\_\-logged\_\-by\char`\"{})
+\item 
+tuple \hyperlink{classEarls__Admin_1_1loaning_1_1models_1_1Logging_3cef9eed464e6e3556ed1baac8930440}{faultitem} = models.ForeignKey(\hyperlink{classEarls__Admin_1_1loaning_1_1models_1_1Inventory}{Inventory},related\_\-name=\char`\"{}Faulty\_\-item\char`\"{})
+\item 
+tuple \hyperlink{classEarls__Admin_1_1loaning_1_1models_1_1Logging_eaa026062e1feffc8ded9ba05734c88d}{fault} = models.CharField(max\_\-length=10000)
+\item 
+tuple \hyperlink{classEarls__Admin_1_1loaning_1_1models_1_1Logging_c8206aaa16d85867e67d3290e7038371}{susrep} = models.CharField(max\_\-length=10000)
+\item 
+tuple \hyperlink{classEarls__Admin_1_1loaning_1_1models_1_1Logging_2379dd94ab713855ffd0520609d7ddee}{actrep} = models.CharField(max\_\-length=10000)
+\item 
+tuple \hyperlink{classEarls__Admin_1_1loaning_1_1models_1_1Logging_f7ea8aac8a3dc2b399022e13bce6eba3}{repdate} = models.DateTimeField('date repair carried out')
+\item 
+tuple \hyperlink{classEarls__Admin_1_1loaning_1_1models_1_1Logging_6df5e99119a50f3e739c6342970c93ea}{internal} = models.CharField(max\_\-length=30)
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 37 of file models.py.
+
+\subsection{Member Data Documentation}
+\hypertarget{classEarls__Admin_1_1loaning_1_1models_1_1Logging_4650b5b238266461bb40ee5470326fee}{
+\index{Earls\_\-Admin::loaning::models::Logging@{Earls\_\-Admin::loaning::models::Logging}!faultdate@{faultdate}}
+\index{faultdate@{faultdate}!Earls_Admin::loaning::models::Logging@{Earls\_\-Admin::loaning::models::Logging}}
+\subsubsection[faultdate]{\setlength{\rightskip}{0pt plus 5cm}tuple {\bf Earls\_\-Admin::loaning::models::Logging::faultdate} = models.DateTimeField('date {\bf fault} occured')\hspace{0.3cm}{\tt  \mbox{[}static\mbox{]}}}}
+\label{classEarls__Admin_1_1loaning_1_1models_1_1Logging_4650b5b238266461bb40ee5470326fee}
+
+
+
+
+Definition at line 38 of file models.py.\hypertarget{classEarls__Admin_1_1loaning_1_1models_1_1Logging_fe3d4ddd3051413989da3f0293057363}{
+\index{Earls\_\-Admin::loaning::models::Logging@{Earls\_\-Admin::loaning::models::Logging}!faultrep@{faultrep}}
+\index{faultrep@{faultrep}!Earls_Admin::loaning::models::Logging@{Earls\_\-Admin::loaning::models::Logging}}
+\subsubsection[faultrep]{\setlength{\rightskip}{0pt plus 5cm}tuple {\bf Earls\_\-Admin::loaning::models::Logging::faultrep} = models.ForeignKey({\bf Borrower},related\_\-name=\char`\"{}Fault\_\-reported\_\-by\char`\"{})\hspace{0.3cm}{\tt  \mbox{[}static\mbox{]}}}}
+\label{classEarls__Admin_1_1loaning_1_1models_1_1Logging_fe3d4ddd3051413989da3f0293057363}
+
+
+
+
+Definition at line 39 of file models.py.\hypertarget{classEarls__Admin_1_1loaning_1_1models_1_1Logging_a46ce33fe9c2910c39ddf8678dc3de47}{
+\index{Earls\_\-Admin::loaning::models::Logging@{Earls\_\-Admin::loaning::models::Logging}!faultlog@{faultlog}}
+\index{faultlog@{faultlog}!Earls_Admin::loaning::models::Logging@{Earls\_\-Admin::loaning::models::Logging}}
+\subsubsection[faultlog]{\setlength{\rightskip}{0pt plus 5cm}tuple {\bf Earls\_\-Admin::loaning::models::Logging::faultlog} = models.ForeignKey({\bf Borrower},related\_\-name=\char`\"{}Fault\_\-logged\_\-by\char`\"{})\hspace{0.3cm}{\tt  \mbox{[}static\mbox{]}}}}
+\label{classEarls__Admin_1_1loaning_1_1models_1_1Logging_a46ce33fe9c2910c39ddf8678dc3de47}
+
+
+
+
+Definition at line 40 of file models.py.\hypertarget{classEarls__Admin_1_1loaning_1_1models_1_1Logging_3cef9eed464e6e3556ed1baac8930440}{
+\index{Earls\_\-Admin::loaning::models::Logging@{Earls\_\-Admin::loaning::models::Logging}!faultitem@{faultitem}}
+\index{faultitem@{faultitem}!Earls_Admin::loaning::models::Logging@{Earls\_\-Admin::loaning::models::Logging}}
+\subsubsection[faultitem]{\setlength{\rightskip}{0pt plus 5cm}tuple {\bf Earls\_\-Admin::loaning::models::Logging::faultitem} = models.ForeignKey({\bf Inventory},related\_\-name=\char`\"{}Faulty\_\-item\char`\"{})\hspace{0.3cm}{\tt  \mbox{[}static\mbox{]}}}}
+\label{classEarls__Admin_1_1loaning_1_1models_1_1Logging_3cef9eed464e6e3556ed1baac8930440}
+
+
+
+
+Definition at line 41 of file models.py.\hypertarget{classEarls__Admin_1_1loaning_1_1models_1_1Logging_eaa026062e1feffc8ded9ba05734c88d}{
+\index{Earls\_\-Admin::loaning::models::Logging@{Earls\_\-Admin::loaning::models::Logging}!fault@{fault}}
+\index{fault@{fault}!Earls_Admin::loaning::models::Logging@{Earls\_\-Admin::loaning::models::Logging}}
+\subsubsection[fault]{\setlength{\rightskip}{0pt plus 5cm}tuple {\bf Earls\_\-Admin::loaning::models::Logging::fault} = models.CharField(max\_\-length=10000)\hspace{0.3cm}{\tt  \mbox{[}static\mbox{]}}}}
+\label{classEarls__Admin_1_1loaning_1_1models_1_1Logging_eaa026062e1feffc8ded9ba05734c88d}
+
+
+
+
+Definition at line 42 of file models.py.\hypertarget{classEarls__Admin_1_1loaning_1_1models_1_1Logging_c8206aaa16d85867e67d3290e7038371}{
+\index{Earls\_\-Admin::loaning::models::Logging@{Earls\_\-Admin::loaning::models::Logging}!susrep@{susrep}}
+\index{susrep@{susrep}!Earls_Admin::loaning::models::Logging@{Earls\_\-Admin::loaning::models::Logging}}
+\subsubsection[susrep]{\setlength{\rightskip}{0pt plus 5cm}tuple {\bf Earls\_\-Admin::loaning::models::Logging::susrep} = models.CharField(max\_\-length=10000)\hspace{0.3cm}{\tt  \mbox{[}static\mbox{]}}}}
+\label{classEarls__Admin_1_1loaning_1_1models_1_1Logging_c8206aaa16d85867e67d3290e7038371}
+
+
+
+
+Definition at line 43 of file models.py.\hypertarget{classEarls__Admin_1_1loaning_1_1models_1_1Logging_2379dd94ab713855ffd0520609d7ddee}{
+\index{Earls\_\-Admin::loaning::models::Logging@{Earls\_\-Admin::loaning::models::Logging}!actrep@{actrep}}
+\index{actrep@{actrep}!Earls_Admin::loaning::models::Logging@{Earls\_\-Admin::loaning::models::Logging}}
+\subsubsection[actrep]{\setlength{\rightskip}{0pt plus 5cm}tuple {\bf Earls\_\-Admin::loaning::models::Logging::actrep} = models.CharField(max\_\-length=10000)\hspace{0.3cm}{\tt  \mbox{[}static\mbox{]}}}}
+\label{classEarls__Admin_1_1loaning_1_1models_1_1Logging_2379dd94ab713855ffd0520609d7ddee}
+
+
+
+
+Definition at line 44 of file models.py.\hypertarget{classEarls__Admin_1_1loaning_1_1models_1_1Logging_f7ea8aac8a3dc2b399022e13bce6eba3}{
+\index{Earls\_\-Admin::loaning::models::Logging@{Earls\_\-Admin::loaning::models::Logging}!repdate@{repdate}}
+\index{repdate@{repdate}!Earls_Admin::loaning::models::Logging@{Earls\_\-Admin::loaning::models::Logging}}
+\subsubsection[repdate]{\setlength{\rightskip}{0pt plus 5cm}tuple {\bf Earls\_\-Admin::loaning::models::Logging::repdate} = models.DateTimeField('date repair carried out')\hspace{0.3cm}{\tt  \mbox{[}static\mbox{]}}}}
+\label{classEarls__Admin_1_1loaning_1_1models_1_1Logging_f7ea8aac8a3dc2b399022e13bce6eba3}
+
+
+
+
+Definition at line 45 of file models.py.\hypertarget{classEarls__Admin_1_1loaning_1_1models_1_1Logging_6df5e99119a50f3e739c6342970c93ea}{
+\index{Earls\_\-Admin::loaning::models::Logging@{Earls\_\-Admin::loaning::models::Logging}!internal@{internal}}
+\index{internal@{internal}!Earls_Admin::loaning::models::Logging@{Earls\_\-Admin::loaning::models::Logging}}
+\subsubsection[internal]{\setlength{\rightskip}{0pt plus 5cm}tuple {\bf Earls\_\-Admin::loaning::models::Logging::internal} = models.CharField(max\_\-length=30)\hspace{0.3cm}{\tt  \mbox{[}static\mbox{]}}}}
+\label{classEarls__Admin_1_1loaning_1_1models_1_1Logging_6df5e99119a50f3e739c6342970c93ea}
+
+
+
+
+Definition at line 46 of file models.py.
+
+The documentation for this class was generated from the following file:\begin{CompactItemize}
+\item 
+loaning/\hyperlink{loaning_2models_8py}{models.py}\end{CompactItemize}

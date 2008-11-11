@@ -1,0 +1,154 @@
+<html>
+
+<head>
+<title>Earls High School Loaning and Inventory System</title>
+</head>
+
+<body>
+
+<h1><b><center>Earls High School</center></b></h1>
+
+<p><h2><b><center>Inventory and Loaning System</center><b><h2></center></p>
+
+<p><h3><b>Item Search</b></h3></p>
+
+Status: {{status}}
+
+<form action="/loaning/search/items/execute/" method="post">
+
+<input type="hidden" name="status" value="{{status}}">
+<input type="hidden" name="borrowerID" value="{{borrowerID}}">
+
+Borrower ID: {{borrowerID}}
+
+<table border=0>
+
+
+<tr align="center">
+
+<td>
+<select name="item1">
+
+<option value="N/A">N/A</option>
+<option value="serial">Serial Number</option>
+<option value="cat">Category</option>
+<option value="subcat">Sub-Category</option>
+<option value="make">Make</option>
+<option value="model">Model</option>
+<option value="location">Location</option>
+<option value="pcstatus">PC Status</option>
+<option value="loanable">Loanable</option>
+<option value="inservice">In-Service</option>
+<option value="notes">Notes</option>
+<option value="price">Price</option>
+<option value="purchasedate">Purchase Date (dd/mm/yyyy)</option>
+<option value="warranty">Warranty Length</option>
+
+
+</select>
+
+<input type="text" name="criteria1" value="">
+</td>
+
+</tr>
+
+<td>
+<select name="item2">
+
+<option value="N/A">N/A</option>
+<option value="serial">Serial Number</option>
+<option value="cat">Category</option>
+<option value="subcat">Sub-Category</option>
+<option value="make">Make</option>
+<option value="model">Model</option>
+<option value="location">Location</option>
+<option value="pcstatus">PC Status</option>
+<option value="loanable">Loanable</option>
+<option value="inservice">In-Service</option>
+<option value="notes">Notes</option>
+<option value="price">Price</option>
+<option value="purchasedate">Purchase Date (dd/mm/yyyy)</option>
+<option value="warranty">Warranty Length</option>
+
+
+</select>
+
+
+<input type="text" name="criteria2" value="">
+</td>
+
+</tr>
+
+<td>
+<select name="item3">
+
+<option value="N/A">N/A</option>
+<option value="serial">Serial Number</option>
+<option value="cat">Category</option>
+<option value="subcat">Sub-Category</option>
+<option value="make">Make</option>
+<option value="model">Model</option>
+<option value="location">Location</option>
+<option value="pcstatus">PC Status</option>
+<option value="loanable">Loanable</option>
+<option value="inservice">In-Service</option>
+<option value="notes">Notes</option>
+<option value="price">Price</option>
+<option value="purchasedate">Purchase Date (dd/mm/yyyy)</option>
+<option value="warranty">Warranty Length</option>
+
+
+</select>
+
+
+<input type="text" name="criteria3" value="">
+</td>
+
+</tr>
+
+<td>
+<select name="item4">
+
+<option value="N/A">N/A</option>
+<option value="serial">Serial Number</option>
+<option value="cat">Category</option>
+<option value="subcat">Sub-Category</option>
+<option value="make">Make</option>
+<option value="model">Model</option>
+<option value="location">Location</option>
+<option value="pcstatus">PC Status</option>
+<option value="loanable">Loanable</option>
+<option value="inservice">In-Service</option>
+<option value="notes">Notes</option>
+<option value="price">Price</option>
+<option value="purchasedate">Purchase Date (dd/mm/yyyy)</option>
+<option value="warranty">Warranty Length</option>
+
+
+</select>
+
+
+<input type="text" name="criteria4" value="">
+</td>
+
+</tr>
+
+</table>
+
+<p>
+<br>
+Loan Item: <input type="radio" name="loan" value="yes">
+<br>
+Display Values: <input type="radio" name="loan" value="no">
+<p>
+
+
+<p>
+<input type="submit" value="Submit">
+</p>
+
+</form>
+
+</body>
+
+</html>

@@ -1,0 +1,518 @@
+\begin{theindex}
+
+  \item {\_\discretionary {-}{}{}\_\discretionary {-}{}{}init\_\discretionary {-}{}{}\_\discretionary {-}{}{}.py}, 
+		\hyperpage{37}
+
+  \indexspace
+
+  \item {actrep}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Logging}, 
+		\hyperpage{32}
+  \item {addItem}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::views}, 
+		\hyperpage{11}
+  \item {addItemDB}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::views}, 
+		\hyperpage{11}
+  \item {addOption}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::views}, 
+		\hyperpage{11}
+  \item {addOptionDB}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::views}, 
+		\hyperpage{11}
+  \item {addPerson}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::views}, 
+		\hyperpage{11}
+  \item {addPersonDB}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::views}, 
+		\hyperpage{11}
+  \item {addPrinterData.py}, \hyperpage{40}
+  \item {ADMIN\_\discretionary {-}{}{}MEDIA\_\discretionary {-}{}{}PREFIX}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::settings}, 
+		\hyperpage{20}
+  \item {ADMINS}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::settings}, 
+		\hyperpage{20}
+  \item {all\_\discretionary {-}{}{}jobs}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::printer\_\discretionary {-}{}{}admin::views}, 
+		\hyperpage{18}
+
+  \indexspace
+
+  \item {B15Las}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::addPrinterData}, 
+		\hyperpage{8}
+  \item {blackcount}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::printer\_\discretionary {-}{}{}admin::models::printer\_\discretionary {-}{}{}admin}, 
+		\hyperpage{35}
+  \item {borrower}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Loaning}, 
+		\hyperpage{29}
+
+  \indexspace
+
+  \item {category}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Inventory}, 
+		\hyperpage{27}
+  \item {checkInput}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::views}, 
+		\hyperpage{11}
+  \item {colourcount}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::printer\_\discretionary {-}{}{}admin::models::printer\_\discretionary {-}{}{}admin}, 
+		\hyperpage{35}
+  \item {cyancount}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::printer\_\discretionary {-}{}{}admin::models::printer\_\discretionary {-}{}{}admin}, 
+		\hyperpage{35}
+
+  \indexspace
+
+  \item {DATABASE\_\discretionary {-}{}{}ENGINE}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::settings}, 
+		\hyperpage{20}
+  \item {DATABASE\_\discretionary {-}{}{}HOST}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::settings}, 
+		\hyperpage{20}
+  \item {DATABASE\_\discretionary {-}{}{}NAME}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::settings}, 
+		\hyperpage{21}
+  \item {DATABASE\_\discretionary {-}{}{}PASSWORD}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::settings}, 
+		\hyperpage{21}
+  \item {DATABASE\_\discretionary {-}{}{}PORT}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::settings}, 
+		\hyperpage{21}
+  \item {DATABASE\_\discretionary {-}{}{}USER}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::settings}, 
+		\hyperpage{21}
+  \item {date}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::printer\_\discretionary {-}{}{}admin::models::printer\_\discretionary {-}{}{}admin}, 
+		\hyperpage{34}
+  \item {dateloan}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Loaning}, 
+		\hyperpage{29}
+  \item {datepurchased}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Inventory}, 
+		\hyperpage{28}
+  \item {datereq}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Loaning}, 
+		\hyperpage{29}
+  \item {dateret}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Loaning}, 
+		\hyperpage{29}
+  \item {dateretby}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Loaning}, 
+		\hyperpage{29}
+  \item {DEBUG}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::settings}, 
+		\hyperpage{21}
+  \item {difftotal}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::printer\_\discretionary {-}{}{}admin::models::printer\_\discretionary {-}{}{}admin}, 
+		\hyperpage{35}
+  \item {drumcount}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::printer\_\discretionary {-}{}{}admin::models::printer\_\discretionary {-}{}{}admin}, 
+		\hyperpage{35}
+
+  \indexspace
+
+  \item {Earls\_\discretionary {-}{}{}Admin}, \hyperpage{7}
+  \item {Earls\_\discretionary {-}{}{}Admin::addPrinterData}, 
+		\hyperpage{8}
+    \subitem {B15Las}, \hyperpage{8}
+    \subitem {setup\_\discretionary {-}{}{}environment}, \hyperpage{8}
+    \subitem {T3Las}, \hyperpage{8}
+  \item {Earls\_\discretionary {-}{}{}Admin::loaning}, \hyperpage{9}
+  \item {Earls\_\discretionary {-}{}{}Admin::loaning::models}, 
+		\hyperpage{10}
+  \item {Earls\_\discretionary {-}{}{}Admin::loaning::models::Borrower}, 
+		\hyperpage{25}
+    \subitem {forename}, \hyperpage{25}
+    \subitem {notes}, \hyperpage{26}
+    \subitem {schoolidnum}, \hyperpage{25}
+    \subitem {status}, \hyperpage{25}
+    \subitem {surname}, \hyperpage{25}
+  \item {Earls\_\discretionary {-}{}{}Admin::loaning::models::Inventory}, 
+		\hyperpage{27}
+    \subitem {category}, \hyperpage{27}
+    \subitem {datepurchased}, \hyperpage{28}
+    \subitem {inservice}, \hyperpage{28}
+    \subitem {loanable}, \hyperpage{28}
+    \subitem {location}, \hyperpage{27}
+    \subitem {make}, \hyperpage{27}
+    \subitem {model}, \hyperpage{27}
+    \subitem {notes}, \hyperpage{28}
+    \subitem {pcstatus}, \hyperpage{28}
+    \subitem {price}, \hyperpage{28}
+    \subitem {serial}, \hyperpage{27}
+    \subitem {subcat}, \hyperpage{27}
+    \subitem {warrantylength}, \hyperpage{28}
+  \item {Earls\_\discretionary {-}{}{}Admin::loaning::models::Loaning}, 
+		\hyperpage{29}
+    \subitem {borrower}, \hyperpage{29}
+    \subitem {dateloan}, \hyperpage{29}
+    \subitem {datereq}, \hyperpage{29}
+    \subitem {dateret}, \hyperpage{29}
+    \subitem {dateretby}, \hyperpage{29}
+    \subitem {item}, \hyperpage{29}
+    \subitem {retby}, \hyperpage{29}
+  \item {Earls\_\discretionary {-}{}{}Admin::loaning::models::Logging}, 
+		\hyperpage{31}
+    \subitem {actrep}, \hyperpage{32}
+    \subitem {fault}, \hyperpage{31}
+    \subitem {faultdate}, \hyperpage{31}
+    \subitem {faultitem}, \hyperpage{31}
+    \subitem {faultlog}, \hyperpage{31}
+    \subitem {faultrep}, \hyperpage{31}
+    \subitem {internal}, \hyperpage{32}
+    \subitem {repdate}, \hyperpage{32}
+    \subitem {susrep}, \hyperpage{31}
+  \item {Earls\_\discretionary {-}{}{}Admin::loaning::models::Options}, 
+		\hyperpage{33}
+    \subitem {option}, \hyperpage{33}
+    \subitem {value}, \hyperpage{33}
+  \item {Earls\_\discretionary {-}{}{}Admin::loaning::views}, 
+		\hyperpage{11}
+    \subitem {addItem}, \hyperpage{11}
+    \subitem {addItemDB}, \hyperpage{11}
+    \subitem {addOption}, \hyperpage{11}
+    \subitem {addOptionDB}, \hyperpage{11}
+    \subitem {addPerson}, \hyperpage{11}
+    \subitem {addPersonDB}, \hyperpage{11}
+    \subitem {checkInput}, \hyperpage{11}
+    \subitem {execute\_\discretionary {-}{}{}items}, \hyperpage{12}
+    \subitem {execute\_\discretionary {-}{}{}people}, \hyperpage{12}
+    \subitem {index}, \hyperpage{12}
+    \subitem {loan\_\discretionary {-}{}{}display}, \hyperpage{12}
+    \subitem {loan\_\discretionary {-}{}{}item\_\discretionary {-}{}{}step1}, 
+		\hyperpage{12}
+    \subitem {search}, \hyperpage{12}
+    \subitem {search\_\discretionary {-}{}{}items}, \hyperpage{12}
+    \subitem {search\_\discretionary {-}{}{}people}, \hyperpage{12}
+    \subitem {test}, \hyperpage{12}
+    \subitem {type\_\discretionary {-}{}{}view}, \hyperpage{12}
+    \subitem {view\_\discretionary {-}{}{}display}, \hyperpage{12}
+  \item {Earls\_\discretionary {-}{}{}Admin::manage}, \hyperpage{14}
+  \item {Earls\_\discretionary {-}{}{}Admin::printer\_\discretionary {-}{}{}admin}, 
+		\hyperpage{15}
+  \item {Earls\_\discretionary {-}{}{}Admin::printer\_\discretionary {-}{}{}admin::models}, 
+		\hyperpage{16}
+  \item {Earls\_\discretionary {-}{}{}Admin::printer\_\discretionary {-}{}{}admin::models::printer\_\discretionary {-}{}{}admin}, 
+		\hyperpage{34}
+    \subitem {blackcount}, \hyperpage{35}
+    \subitem {colourcount}, \hyperpage{35}
+    \subitem {cyancount}, \hyperpage{35}
+    \subitem {date}, \hyperpage{34}
+    \subitem {difftotal}, \hyperpage{35}
+    \subitem {drumcount}, \hyperpage{35}
+    \subitem {location}, \hyperpage{34}
+    \subitem {magcount}, \hyperpage{35}
+    \subitem {make}, \hyperpage{34}
+    \subitem {model}, \hyperpage{34}
+    \subitem {monocount}, \hyperpage{35}
+    \subitem {totalcount}, \hyperpage{34}
+    \subitem {yelcount}, \hyperpage{35}
+  \item {Earls\_\discretionary {-}{}{}Admin::printer\_\discretionary {-}{}{}admin::run}, 
+		\hyperpage{17}
+    \subitem {function\_\discretionary {-}{}{}name}, \hyperpage{17}
+    \subitem {module\_\discretionary {-}{}{}name}, \hyperpage{17}
+  \item {Earls\_\discretionary {-}{}{}Admin::printer\_\discretionary {-}{}{}admin::views}, 
+		\hyperpage{18}
+    \subitem {all\_\discretionary {-}{}{}jobs}, \hyperpage{18}
+    \subitem {index}, \hyperpage{18}
+    \subitem {printer\_\discretionary {-}{}{}vals}, \hyperpage{18}
+    \subitem {room}, \hyperpage{18}
+  \item {Earls\_\discretionary {-}{}{}Admin::sendEmail}, \hyperpage{19}
+    \subitem {EMAIL\_\discretionary {-}{}{}HOST}, \hyperpage{19}
+    \subitem {EMAIL\_\discretionary {-}{}{}PORT}, \hyperpage{19}
+    \subitem {setup\_\discretionary {-}{}{}environment}, \hyperpage{19}
+  \item {Earls\_\discretionary {-}{}{}Admin::settings}, \hyperpage{20}
+    \subitem {ADMIN\_\discretionary {-}{}{}MEDIA\_\discretionary {-}{}{}PREFIX}, 
+		\hyperpage{20}
+    \subitem {ADMINS}, \hyperpage{20}
+    \subitem {DATABASE\_\discretionary {-}{}{}ENGINE}, \hyperpage{20}
+    \subitem {DATABASE\_\discretionary {-}{}{}HOST}, \hyperpage{20}
+    \subitem {DATABASE\_\discretionary {-}{}{}NAME}, \hyperpage{21}
+    \subitem {DATABASE\_\discretionary {-}{}{}PASSWORD}, \hyperpage{21}
+    \subitem {DATABASE\_\discretionary {-}{}{}PORT}, \hyperpage{21}
+    \subitem {DATABASE\_\discretionary {-}{}{}USER}, \hyperpage{21}
+    \subitem {DEBUG}, \hyperpage{21}
+    \subitem {INSTALLED\_\discretionary {-}{}{}APPS}, \hyperpage{21}
+    \subitem {LANGUAGE\_\discretionary {-}{}{}CODE}, \hyperpage{21}
+    \subitem {MANAGERS}, \hyperpage{21}
+    \subitem {MEDIA\_\discretionary {-}{}{}ROOT}, \hyperpage{21}
+    \subitem {MEDIA\_\discretionary {-}{}{}URL}, \hyperpage{22}
+    \subitem {MIDDLEWARE\_\discretionary {-}{}{}CLASSES}, 
+		\hyperpage{22}
+    \subitem {ROOT\_\discretionary {-}{}{}URLCONF}, \hyperpage{22}
+    \subitem {SECRET\_\discretionary {-}{}{}KEY}, \hyperpage{22}
+    \subitem {SITE\_\discretionary {-}{}{}ID}, \hyperpage{22}
+    \subitem {TEMPLATE\_\discretionary {-}{}{}DEBUG}, \hyperpage{22}
+    \subitem {TEMPLATE\_\discretionary {-}{}{}DIRS}, \hyperpage{22}
+    \subitem {TEMPLATE\_\discretionary {-}{}{}LOADERS}, \hyperpage{22}
+    \subitem {TIME\_\discretionary {-}{}{}ZONE}, \hyperpage{23}
+    \subitem {USE\_\discretionary {-}{}{}I18N}, \hyperpage{23}
+  \item {Earls\_\discretionary {-}{}{}Admin::urls}, \hyperpage{24}
+    \subitem {urlpatterns}, \hyperpage{24}
+  \item {EMAIL\_\discretionary {-}{}{}HOST}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::sendEmail}, 
+		\hyperpage{19}
+  \item {EMAIL\_\discretionary {-}{}{}PORT}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::sendEmail}, 
+		\hyperpage{19}
+  \item {execute\_\discretionary {-}{}{}items}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::views}, 
+		\hyperpage{12}
+  \item {execute\_\discretionary {-}{}{}people}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::views}, 
+		\hyperpage{12}
+
+  \indexspace
+
+  \item {fault}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Logging}, 
+		\hyperpage{31}
+  \item {faultdate}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Logging}, 
+		\hyperpage{31}
+  \item {faultitem}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Logging}, 
+		\hyperpage{31}
+  \item {faultlog}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Logging}, 
+		\hyperpage{31}
+  \item {faultrep}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Logging}, 
+		\hyperpage{31}
+  \item {forename}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Borrower}, 
+		\hyperpage{25}
+  \item {function\_\discretionary {-}{}{}name}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::printer\_\discretionary {-}{}{}admin::run}, 
+		\hyperpage{17}
+
+  \indexspace
+
+  \item {index}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::views}, 
+		\hyperpage{12}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::printer\_\discretionary {-}{}{}admin::views}, 
+		\hyperpage{18}
+  \item {inservice}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Inventory}, 
+		\hyperpage{28}
+  \item {INSTALLED\_\discretionary {-}{}{}APPS}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::settings}, 
+		\hyperpage{21}
+  \item {internal}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Logging}, 
+		\hyperpage{32}
+  \item {item}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Loaning}, 
+		\hyperpage{29}
+
+  \indexspace
+
+  \item {LANGUAGE\_\discretionary {-}{}{}CODE}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::settings}, 
+		\hyperpage{21}
+  \item {loan\_\discretionary {-}{}{}display}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::views}, 
+		\hyperpage{12}
+  \item {loan\_\discretionary {-}{}{}item\_\discretionary {-}{}{}step1}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::views}, 
+		\hyperpage{12}
+  \item {loanable}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Inventory}, 
+		\hyperpage{28}
+  \item {loaning/\_\discretionary {-}{}{}\_\discretionary {-}{}{}init\_\discretionary {-}{}{}\_\discretionary {-}{}{}.py}, 
+		\hyperpage{38}
+  \item {loaning/models.py}, \hyperpage{41}
+  \item {loaning/views.py}, \hyperpage{43}
+  \item {location}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Inventory}, 
+		\hyperpage{27}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::printer\_\discretionary {-}{}{}admin::models::printer\_\discretionary {-}{}{}admin}, 
+		\hyperpage{34}
+
+  \indexspace
+
+  \item {magcount}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::printer\_\discretionary {-}{}{}admin::models::printer\_\discretionary {-}{}{}admin}, 
+		\hyperpage{35}
+  \item {make}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Inventory}, 
+		\hyperpage{27}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::printer\_\discretionary {-}{}{}admin::models::printer\_\discretionary {-}{}{}admin}, 
+		\hyperpage{34}
+  \item {manage.py}, \hyperpage{45}
+  \item {MANAGERS}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::settings}, 
+		\hyperpage{21}
+  \item {MEDIA\_\discretionary {-}{}{}ROOT}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::settings}, 
+		\hyperpage{21}
+  \item {MEDIA\_\discretionary {-}{}{}URL}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::settings}, 
+		\hyperpage{22}
+  \item {MIDDLEWARE\_\discretionary {-}{}{}CLASSES}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::settings}, 
+		\hyperpage{22}
+  \item {model}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Inventory}, 
+		\hyperpage{27}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::printer\_\discretionary {-}{}{}admin::models::printer\_\discretionary {-}{}{}admin}, 
+		\hyperpage{34}
+  \item {module\_\discretionary {-}{}{}name}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::printer\_\discretionary {-}{}{}admin::run}, 
+		\hyperpage{17}
+  \item {monocount}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::printer\_\discretionary {-}{}{}admin::models::printer\_\discretionary {-}{}{}admin}, 
+		\hyperpage{35}
+
+  \indexspace
+
+  \item {notes}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Borrower}, 
+		\hyperpage{26}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Inventory}, 
+		\hyperpage{28}
+
+  \indexspace
+
+  \item {option}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Options}, 
+		\hyperpage{33}
+
+  \indexspace
+
+  \item {pcstatus}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Inventory}, 
+		\hyperpage{28}
+  \item {price}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Inventory}, 
+		\hyperpage{28}
+  \item {printer\_\discretionary {-}{}{}admin/\_\discretionary {-}{}{}\_\discretionary {-}{}{}init\_\discretionary {-}{}{}\_\discretionary {-}{}{}.py}, 
+		\hyperpage{39}
+  \item {printer\_\discretionary {-}{}{}admin/models.py}, 
+		\hyperpage{42}
+  \item {printer\_\discretionary {-}{}{}admin/run.py}, \hyperpage{46}
+  \item {printer\_\discretionary {-}{}{}admin/views.py}, \hyperpage{44}
+  \item {printer\_\discretionary {-}{}{}vals}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::printer\_\discretionary {-}{}{}admin::views}, 
+		\hyperpage{18}
+
+  \indexspace
+
+  \item {repdate}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Logging}, 
+		\hyperpage{32}
+  \item {retby}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Loaning}, 
+		\hyperpage{29}
+  \item {room}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::printer\_\discretionary {-}{}{}admin::views}, 
+		\hyperpage{18}
+  \item {ROOT\_\discretionary {-}{}{}URLCONF}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::settings}, 
+		\hyperpage{22}
+
+  \indexspace
+
+  \item {schoolidnum}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Borrower}, 
+		\hyperpage{25}
+  \item {search}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::views}, 
+		\hyperpage{12}
+  \item {search\_\discretionary {-}{}{}items}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::views}, 
+		\hyperpage{12}
+  \item {search\_\discretionary {-}{}{}people}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::views}, 
+		\hyperpage{12}
+  \item {SECRET\_\discretionary {-}{}{}KEY}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::settings}, 
+		\hyperpage{22}
+  \item {sendEmail.py}, \hyperpage{47}
+  \item {serial}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Inventory}, 
+		\hyperpage{27}
+  \item {settings.py}, \hyperpage{48}
+  \item {setup\_\discretionary {-}{}{}environment}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::addPrinterData}, 
+		\hyperpage{8}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::sendEmail}, 
+		\hyperpage{19}
+  \item {SITE\_\discretionary {-}{}{}ID}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::settings}, 
+		\hyperpage{22}
+  \item {status}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Borrower}, 
+		\hyperpage{25}
+  \item {subcat}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Inventory}, 
+		\hyperpage{27}
+  \item {surname}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Borrower}, 
+		\hyperpage{25}
+  \item {susrep}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Logging}, 
+		\hyperpage{31}
+
+  \indexspace
+
+  \item {T3Las}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::addPrinterData}, 
+		\hyperpage{8}
+  \item {TEMPLATE\_\discretionary {-}{}{}DEBUG}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::settings}, 
+		\hyperpage{22}
+  \item {TEMPLATE\_\discretionary {-}{}{}DIRS}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::settings}, 
+		\hyperpage{22}
+  \item {TEMPLATE\_\discretionary {-}{}{}LOADERS}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::settings}, 
+		\hyperpage{22}
+  \item {test}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::views}, 
+		\hyperpage{12}
+  \item {TIME\_\discretionary {-}{}{}ZONE}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::settings}, 
+		\hyperpage{23}
+  \item {totalcount}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::printer\_\discretionary {-}{}{}admin::models::printer\_\discretionary {-}{}{}admin}, 
+		\hyperpage{34}
+  \item {type\_\discretionary {-}{}{}view}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::views}, 
+		\hyperpage{12}
+
+  \indexspace
+
+  \item {urlpatterns}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::urls}, \hyperpage{24}
+  \item {urls.py}, \hyperpage{49}
+  \item {USE\_\discretionary {-}{}{}I18N}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::settings}, 
+		\hyperpage{23}
+
+  \indexspace
+
+  \item {value}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Options}, 
+		\hyperpage{33}
+  \item {view\_\discretionary {-}{}{}display}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::views}, 
+		\hyperpage{12}
+
+  \indexspace
+
+  \item {warrantylength}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::loaning::models::Inventory}, 
+		\hyperpage{28}
+
+  \indexspace
+
+  \item {yelcount}
+    \subitem {Earls\_\discretionary {-}{}{}Admin::printer\_\discretionary {-}{}{}admin::models::printer\_\discretionary {-}{}{}admin}, 
+		\hyperpage{35}
+
+\end{theindex}

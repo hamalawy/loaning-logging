@@ -1,0 +1,49 @@
+<html>
+
+<head>
+<title>Earls High School Loaning and Inventory System</title>
+</head>
+
+<body>
+
+<h1><b><center>Earls High School</center></b></h1>
+
+<p><h2><b><center>Inventory and Loaning System</center></b><h2></center></p>
+
+<p><h3><b>Add option to the database</b></h3></p>
+
+<p><h4>Separate values with the "|" character. Leave <b>NO</b> spaces between options and the character</h4></p>
+
+<p><h4>To add users that can loan items, use the following format Forename:Surname:School ID Number (e.g. Matthew:Holder:123456)</h4></p>
+
+<form action="/loaning/addOption/addDB" method="post">
+
+
+<p>
+
+<select name="option_options">
+
+<option value="borrowerStatus">Borrower Status (Staff/Student/Other)</option>
+<option value="inventoryCat">Inventory Category (Computer/AV/Other)</option>
+<option value="inventorySub">Inventory Sub-Category (Computer->PC/Monitor/Other)</option>
+<option value="inventoryLoc">Inventory Location (B15/A5/Other)</option>
+<option value="inventoryPCStatus">Inventory PC Status (RM Managed/Other)</option>
+<option value="inventoryLoanable">Inventory Loanable (Yes/No)</option>
+<option value="inventoryService">Inventory In Service (Yes/No)</option>
+<option value="loanedByUser">User able to loan items</option>
+
+</select>
+
+<input type="text" name="value" value="">
+</p>
+
+<p>
+<input type="submit" value="Submit">
+</p>
+
+</form>
+
+</body>
+</html>
+
+

@@ -1,0 +1,21 @@
+<html>
+
+<head>
+<title>Earls High School Printer Logging - Room: {{room}}</title>
+</head>
+
+<body>
+
+<center><h1><b>Earls High School</b></h1></center>
+
+<p><center><h2><b>Printer Logging</b></h2></center></p>
+
+<p><h3><b>Printers in rooms:</b></h3></p>
+
+{% for room in rooms %}
+    <br><a href="room/{{room}}">{{room}}</a></br>
+{% endfor %}
+
+</body>
+
+</html>

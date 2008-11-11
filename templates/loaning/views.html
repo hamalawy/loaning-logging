@@ -1,0 +1,38 @@
+<html>
+
+<head>
+<title>Earls High School Loaning and Inventory System</title>
+<script src="/site_media/sorttable.js"></script>
+</head>
+
+<body>
+
+<h1><b><center>Earls High School</center></b></h1>
+
+<p><h2><b><center>Inventory and Loaning System</center><b><h2></center></p>
+
+<p><h3><b>View {{type}} details</b></h3></p>
+
+Status: {{status}}
+
+<table align="center" border="1" width="90%" class="sortable">
+<tr align="center">
+{% for val in title %}
+<th><b>{{val}}</b></th>
+{% endfor%}
+</tr>
+{% for val in values %}
+	<tr align="left">
+	{% for v in val %}
+
+	<td>
+	{{v}}
+	</td>
+
+
+	{% endfor %}
+	</tr>
+{% endfor %}
+
+</body>
+</html>

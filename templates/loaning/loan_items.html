@@ -1,0 +1,312 @@
+<html>
+
+<head>
+<title>Earls High School Loaning and Inventory System</title>
+<script src="/site_media/sorttable.js"></script>
+</head>
+
+<body>
+
+<h1><b><center>Earls High School</center></b></h1>
+
+<p><h2><b><center>Inventory and Loaning System</center><b><h2></center></p>
+
+<p><h3><b>Loaning Items</b></h3></p>
+
+<p>
+
+<input type="hidden" name="borrowerID" value="{{borrowerID}}">{{borrowerID}}
+
+<input type="hidden" name="status" value="{{status}}">
+
+<h4> Borrower Details:</h4>
+
+<table align="center" border="1" width="70%" class="sortable">
+<tr align="center">
+{% for val in borrowerTitle %}
+<th><b>{{val}}</b></th>
+{% endfor%}
+</tr>
+<tr align="left">
+{% for val in borrower %}
+	<td>
+	{{val}}
+	</td>
+{% endfor %}
+</tr>
+
+</table>
+
+<h4> Item Details:</h4>
+
+<table align="center" border="1" width="70%" class="sortable">
+<tr align="center">
+{% for val in itemTitle %}
+<th><b>{{val}}</b></th>
+{% endfor%}
+</tr>
+<tr align="left">
+{% for val in item %}
+	<td>
+	{{val}}
+	</td>
+{% endfor %}
+</tr>
+
+</table>
+
+<h4>Other Loan Details</h4>
+
+<input type="hidden" name="borrowerID" value="{{borrowerID}}">
+
+<input type="hidden" name="itemID" value="{{itemID}}">
+
+<br>
+Loan item: <input type="radio" name="loan" value="loan">
+<br>
+Book item: <input type="radio" name="loan" value="book">
+<p>
+
+<label for="dateloan_book">Date loaned / Date booked for: </label>
+<select name="date_loan_day">
+
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+
+</select>
+
+<select name="date_loan_month">
+
+<option value="1">Jan</option>
+<option value="2">Feb</option>
+<option value="3">Mar</option>
+<option value="4">Apr</option>
+<option value="5">May</option>
+<option value="6">Jun</option>
+<option value="7">Jul</option>
+<option value="8">Aug</option>
+<option value="9">Sep</option>
+<option value="10">Oct</option>
+<option value="11">Nov</option>
+<option value="12">Dec</option>
+
+</select>
+
+<select name="date_loan_year">
+
+<option value="2008">2008</option>
+<option value="2009">2009</option>
+<option value="2010">2010</option>
+<option value="2011">2011</option>
+<option value="2012">2012</option>
+<option value="2013">2013</option>
+<option value="2014">2014</option>
+<option value="2015">2015</option>
+<option value="2016">2016</option>
+<option value="2017">2017</option>
+<option value="2018">2018</option>
+<option value="2019">2019</option>
+<option value="2020">2020</option>
+
+</select>
+
+<p>
+
+<label for="dateret">Date to return by: </label>
+<select name="date_ret_day">
+
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+
+</select>
+
+<select name="date_ret_month">
+
+<option value="1">Jan</option>
+<option value="2">Feb</option>
+<option value="3">Mar</option>
+<option value="4">Apr</option>
+<option value="5">May</option>
+<option value="6">Jun</option>
+<option value="7">Jul</option>
+<option value="8">Aug</option>
+<option value="9">Sep</option>
+<option value="10">Oct</option>
+<option value="11">Nov</option>
+<option value="12">Dec</option>
+
+</select>
+
+<select name="date_ret_year">
+
+<option value="2008">2008</option>
+<option value="2009">2009</option>
+<option value="2010">2010</option>
+<option value="2011">2011</option>
+<option value="2012">2012</option>
+<option value="2013">2013</option>
+<option value="2014">2014</option>
+<option value="2015">2015</option>
+<option value="2016">2016</option>
+<option value="2017">2017</option>
+<option value="2018">2018</option>
+<option value="2019">2019</option>
+<option value="2020">2020</option>
+
+</select>
+
+<p>
+
+<label for="date_returned_day">Date returned: </label>
+<select name="date_returned_day">
+
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+
+</select>
+
+<select name="date_returned_month">
+
+<option value="1">Jan</option>
+<option value="2">Feb</option>
+<option value="3">Mar</option>
+<option value="4">Apr</option>
+<option value="5">May</option>
+<option value="6">Jun</option>
+<option value="7">Jul</option>
+<option value="8">Aug</option>
+<option value="9">Sep</option>
+<option value="10">Oct</option>
+<option value="11">Nov</option>
+<option value="12">Dec</option>
+
+</select>
+
+<select name="date_returned_year">
+
+<option value="2008">2008</option>
+<option value="2009">2009</option>
+<option value="2010">2010</option>
+<option value="2011">2011</option>
+<option value="2012">2012</option>
+<option value="2013">2013</option>
+<option value="2014">2014</option>
+<option value="2015">2015</option>
+<option value="2016">2016</option>
+<option value="2017">2017</option>
+<option value="2018">2018</option>
+<option value="2019">2019</option>
+<option value="2020">2020</option>
+
+</select>
+
+<p>
+
+<label for="loanedby">Loaned By:</label>
+<select name="loanedby">
+{% for person in loaned_people %}
+	<option value="{{person}}">{{person}}</option>
+{% endfor %}
+</select>
+
+<p><center>
+<input type="submit" value="Select">
+</center></p>
+
+
+</form>
+</body>
+</html>
